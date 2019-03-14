@@ -19,7 +19,7 @@ ul{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: transparent;
   font-size: 3rem;
-  color: #ffd000;
+  color: #48cf90;
   text-align: left;
 }
 
@@ -30,7 +30,7 @@ ul{
   left: 25%;
   max-width: 40em;
   text-decoration-line: none;
-  color: #ffd000;
+  color: #48cf90;
   transform: translate(-50%, -50%);
 }
 
@@ -39,9 +39,9 @@ ul{
   display: flex;
   justify-content: center;
   background-color: transparent;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: #ffd000;
-  text-decoration: #ffd000;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #48cf90;
+  text-decoration: #48cf90;
   text-decoration-line: none;
   font-size: 2rem;
 }
@@ -49,8 +49,8 @@ ul{
 .sub-header-contents{
   display: flex;
   margin: 10px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: #ffd000;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #48cf90;
   text-decoration: none;
   font-size: 1.5rem;
 }
@@ -67,12 +67,36 @@ ul{
   letter-spacing: 2px;
 }
 
+.justify-project-body-content{
+  display: flex;
+  flex-basis: 100%;
+  padding-left: 25%;
+  padding-right: 25%;
+  text-align: left;
+  font-size: 1.2rem;
+  color: white;
+  background: transparent;
+  letter-spacing: 2px;
+}
+
 .justify-centered-body-content{
   display: flex;
   flex-basis: 100%;
   padding-left: 25%;
   padding-right: 25%;
   text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  background: transparent;
+  letter-spacing: 2px;
+}
+
+.justify-centered-left-body-content{
+  display: flex;
+  flex-basis: 100%;
+  padding-left: 25%;
+  padding-right: 25%;
+  text-align: left;
   font-size: 1.2rem;
   color: white;
   background: transparent;
@@ -130,11 +154,11 @@ ul{
 }
 
 .label-justify-content input:checked + .checkmark{
-  background: #8f7500;
+  background: #08331f;
 }
 
 .label-justify-content:hover .checkmark{
-  background: #ffd000;
+  background: #48cf90;
 
 }
 .label-justify-content input:checked + .checkmark:after{

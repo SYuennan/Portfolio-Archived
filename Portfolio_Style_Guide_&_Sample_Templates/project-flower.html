@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Three Corner Interactives</title>
+    <title>Sirawit Yuennan's Portfolio</title>
     <link rel="stylesheet" href="css/texts-style.css">
     <link rel="stylesheet" href="css/image-style.css">
     <link rel="stylesheet" href="css/ui-style.css">
@@ -15,12 +15,10 @@
 
 <body>
 
-    <nav class="nav-main">
-        <a href="Index.html" class="nav-main-items">Home</a>
-        <a href="#the-studio" class="nav-main-items">The Studio</a>
-        <a href="Index.html#projects" class="nav-main-items">Projects</a>
-        <a href="service.html" class="nav-main-items">Services</a>
-        <a href="contact.html" class="nav-main-items">Contact Us</a>
+    <nav class="nav-main element-container">
+        <a href="index.html" class="nav-main-items" id="home-nav"> Home</a>
+        <a href="index.html#bio" class="nav-main-items" id="bio-nav">About me</a>
+        <a href="index.html#projects" class="nav-main-items" id="projects-nav">Projects</a>
     </nav>
 
     <div class="element-container">
@@ -29,59 +27,68 @@
         </div>
     </div>
 
-    <div class="inline-bottom-left-text">
-        <p class="banner-text">
-            Three Corner Interactives
-        </p>
-    </div>
-
 
     <h1 class="element-container header-contents">Flower Diary</h1>
-    <div class="justify-centered-body-content">
-        <p>This project was a 2D side scrolling adventure type game with an emphasis on a narrative-story
-            based experience as well as its gameplay.
-            With the development last only 3 weeks,
-            a combined effort of 4 people, Sirawit Yuennan (Project Leader), Nicco Pucci (Co-Programmer), Yitian Zhang
-            (Co-Programmer),
-            and Zhixiu Zhu (Artist), we were able to create an ambitious game in such a small development window.
+    <div class="justify-centered-left-body-content">
+        <p>This project was a 2D side scrolling adventure type game with an emphasis on a narrative-story based
+            experience as well as its gameplay. This project was my first full video game project. While the time of
+            development was only 3 weeks, with a combined effort of 3 other people, Nicco Pucci (Co-Programmer), Yitian
+            Zhang (Co-Programmer), and Zhixiu Zhu (Artist), we were able to create an ambitious game in such a small
+            development window.
         </p>
     </div>
-    <div class="element-container">
-        <div class="project-thumbnail-container" id="project-flower-box">
-            <div class="imageGrid project-thumbnail-wrapper">
 
-                <img src="Resources/Huntsman.gif" class="project-screenshot" id="huntsman"
-                    alt="project-flower-huntsman">
-                <p class="image-description">This was one of our sample 2D Animation works using Live 2D Engine</p>
+    <div class="justify-centered-left-body-content">
+        <p>
+            My role for this project was the project manager, game designer, and 2D animator.
+            As the project manager, my responsibility for my team is to keep track of everyone's task and decide the
+            time frame of which a task should be finish. Time management in this project was key, as this was our team's
+            first experience with the Unity 3D engine.
+        </p>
+    </div>
+    <div class="justify-project-body-content">
 
-            </div>
-            <div class="imageGrid project-thumbnail-wrapper">
+        <p>
+            The issue I faced with my task was the 2D animation part. I used the Live2D Engine for 2D animations as part
+            of gameplay. However,
+            this engine was not meant to be used to create as part of gameplay but as a visual aesthetic such as
+            creating movements in the background.
+            Live2D Engines are mostly used to create animations for a 2D character portrait, and again for visual
+            aesthetic.
+        </p>
 
-                <img src="Resources/LevelDesign.png" class="project-screenshot" id="leveldesign"
-                    alt="project-flower-leveldesign">
-                <p class="image-description">This was our prototype for one of the level design</p>
 
-            </div>
 
-            <div class="imageGrid project-thumbnail-wrapper">
+        <img src="Resources/Huntsman.gif" class="project-screenshot" alt="project-flower-huntsman">
+    </div>
 
-                <img src="Resources/Protagonist.gif" class="project-screenshot" id="protagonist"
-                    alt="project-flower-protagonist">
-                <p class="image-description">This was our player character that had to be animated to fit with the
-                    character concept
-                    from having to animate the choreograph.
-                </p>
-            </div>
-        </div>
+    <div class="justify-project-body-content">
+        <img src="Resources/Protagonist.gif" class="project-screenshot" id="protagonist"
+            alt="project-flower-protagonist">
+        <p>
+            To get around this, I worked on the animation as if it was a standard animation program, meaning I worked on
+            it
+            by translating body parts manually at a certain time frame to create movements. This also includes the hair
+            of the character
+            which I had to split the hair into multiple sections to simulate a flowing movement instead of moving the
+            entire hair.
+            Then I export the animation in png frames and construct them in Unity as animation by frames.
+        </p>
+    </div>
 
+    <div class="justify-project-body-content">
+        <p>
+            While this solution was very clumsily implemented, within Unity Engine it worked great. With great feedback
+            about the
+            animations from the professors and peers. Live2D Engine is a program that is not very widely popularized but
+            it can
+            produce some fantastic looking animations when done right.
+        </p>
     </div>
 
     <div class="element-container empty-block"></div>
     <!-- This creates a footer that can contain texts and images -->
     <div class="footer">
-        <p class="justify-footer-content element-container">
-            © 2019 Three Corner Interactives, a company that offer game development service for you.
-        </p>
     </div>
 </body>
 
