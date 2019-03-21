@@ -162,6 +162,8 @@ ul{
 }
 
 .intro-text{
+  font-family: 'Courier New', Courier, monospace;
+  color: #48cf90;
   margin: 10rem;
   font-size: 50px;
 }
