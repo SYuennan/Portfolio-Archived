@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Three Corner Interactives</title>
+    <title>Sirawit Yuennan's Portfolio</title>
     <link rel="stylesheet" href="css/texts-style.css">
     <link rel="stylesheet" href="css/image-style.css">
     <link rel="stylesheet" href="css/ui-style.css">
@@ -15,12 +15,11 @@
 
 <body>
 
-    <nav class="nav-main">
-        <a href="Index.html" class="nav-main-items">Home</a>
-        <a href="#the-studio" class="nav-main-items">The Studio</a>
-        <a href="Index.html#projects" class="nav-main-items">Projects</a>
-        <a href="service.html" class="nav-main-items">Services</a>
-        <a href="contact.html" class="nav-main-items">Contact Us</a>
+    <nav class="nav-main element-container">
+        <a href="index.html" class="nav-main-items" id="home-nav"> Home</a>
+        <a href="index.html#about-me" class="nav-main-items" id="bio-nav">About me</a>
+        <a href="index.html#projects" class="nav-main-items" id="projects-nav">Projects</a>
+        <a href="index.html#contact" class="nav-main-items" id="projects-nav">Contact</a>
     </nav>
 
     <div class="element-container">
@@ -29,64 +28,66 @@
         </div>
     </div>
 
-    <div class="inline-bottom-left-text">
-        <p class="banner-text">
-            Three Corner Interactives
-        </p>
-    </div>
-
-
     <h1 class="element-container header-contents">Canvas</h1>
-    <div class="justify-centered-body-content">
-        <p>This project was an arcade mobile game in a form of an "endless runner" with simple controls and mechanics
-            that can be picked up and played by non-gamers. This game was created using Unity 3D.
-            The 3D art assets were created using Blender, while the 2D assets were created using Clip Studio.
+
+    <div class="element-container video-url">
+        <iframe width="720" height="520" src="https://www.youtube.com/embed/vux8WYP_LEs">
+        </iframe>
+    </div>
+
+    <div class="justify-centered-left-body-content">
+        <p> This project was an arcade mobile game in a form of an "endless runner" with simple controls and mechanics
+            that can be picked up and played by non-gamers. This game was created using Unity 3D. The 3D art assets were
+            created using Blender, while the 2D assets were created using Clip Studio.
         </p>
     </div>
-    <div class="element-container" id="project-bunker">
-        <div class="project-thumbnail-container" id="project-flower-box">
-            <div class="imageGrid project-thumbnail-wrapper">
 
-                <img src="Resources/Chicken.png" class="project-screenshot" id="chicken" alt="project-bunker-chicken">
-                <p class="image-description">Our first player character prototype model, it was changed due to the team
-                    that had another
-                    theme in mind.</p>
+    <div class="justify-centered-left-body-content">
+        <p>
+            The development time for this project was one month from 4 months and with a team of 4.
+            It becomes a massive issue as my experience was not at
+            the level I was comfortable with to create such a project and I didn't have a team to rely on.
+            With such a small development window, I had to manage my time
+            carefully. Not only I had to design the game with the players in mind but my own abilities and limitations
+            as well. This would mean that my own creativity in designs would be hindered by my skills.
+        </p>
+    </div>
+    <div class="justify-project-body-content">
+        <div class="element-container">
 
-
-
-            </div>
-            <div class="imageGrid project-thumbnail-wrapper">
-
-                <img src="Resources/ShipSS.png" class="project-screenshot" id="ship" alt="project-bunker-ship">
-                <p class="image-description">Our final product of the player character, which is a ship instead of using
-                    an animal.</p>
-
-
-
-
-            </div>
-
-
-
-            <div class="imageGrid project-thumbnail-wrapper">
-
-                <img src="Resources/Project-Canvas-thumbnail1.png" class="project-screenshot" id="thumbnail"
-                    alt="project-bunker-thumbnail">
-                <p class="image-description"> Our game ran based on modular coding that allows us to change the property
-                    of the game
-                    quickly and effectively.
-                </p>
-
-            </div>
+            <p>
+                The condition I set for myself is that it must have a core loop that is small and engaging
+                enough for the players. While the programming tasks must be within my skill level.
+                Lastly, it should look polished with appealing aesthetic to create a visual appeal.
+            </p>
         </div>
 
+        <div class="element-container">
+
+
+
+            <img src="Resources/ShipSS.png" class="project-screenshot" id="ship" alt="project-bunker-ship">
+        </div>
+    </div>
+
+    <div class="justify-project-body-content">
+        <div class="element-container">
+            <img src="Resources/Project-Canvas-thumbnail1.png" class="project-screenshot" id="thumbnail"
+                alt="project-bunker-thumbnail">
+        </div>
+        <div class="element-container">
+            <p>
+                Following these 3 principles, I was able to finish the project in time with a positive feedback
+                and amazements by both my peers and professor to be able to pull of a project in such a handicapped
+                situation. Although there were still some concerns with the design, they can easily be solved.
+            </p>
+        </div>
     </div>
 
     <div class="element-container empty-block"></div>
     <!-- This creates a footer that can contain texts and images -->
     <div class="footer">
         <p class="justify-footer-content element-container">
-            © 2019 Three Corner Interactives, a company that offer game development service for you.
         </p>
     </div>
 </body>
