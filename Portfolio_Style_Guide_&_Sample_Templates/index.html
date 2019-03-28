@@ -19,6 +19,7 @@
     <a href="index.html" class="nav-main-items" id="home-nav"> Home</a>
     <a href="index.html#bio" class="nav-main-items" id="bio-nav">About me</a>
     <a href="index.html#projects" class="nav-main-items" id="projects-nav">Projects</a>
+    <a href="index.html#contact" class="nav-main-items" id="projects-nav">Contact</a>
   </nav>
 
 
@@ -78,35 +79,14 @@
     </section>
 
 
-    <section class="container-border">
-      <h3 class="sub-header-contents">Radio Button with Label</h3>
-      <div class="element-container-col label-container">
-        <form>
-          <label for="mobile-contract" class="label-justify-content"> <input type="radio" name="Tel"
-              id="mobile-contract"> Mobile
-            <span class="checkmark"></span>
-          </label>
-          <label for="work-contact" class="label-justify-content"> <input type="radio" name="Tel" id="work-contact">
-            Work
-            <span class="checkmark"></span>
-          </label>
-          <label for="home-contact" class="label-justify-content"> <input type="radio" name="Tel" id="home-contact">
-            Home
-            <span class="checkmark"></span>
-          </label>
-        </form>
-      </div>
-    </section>
-
-
-    <section class="element-container container-border">
+    <section class="element-container">
       <h3 class="sub-header-contents" id="projects">Portfolio Thumbnails</h3>
       <div class="project-thumbnail-container">
         <div class="imageGrid project-thumbnail-wrapper">
           <img src="Resources/Project-Flower-Thumbnail3.jpg" class="project-thumbnail" id="project-flower"
             alt="project-flower-thumbnail">
           <div class="project-thumbnail-content">
-            <h2 class="header-contents"> Flower Diary </h2>
+            <h2 class="image-descritption-contents"> Flower Diary </h2>
             <a href="project-flower.html"> <img src="Resources/Project-Flower-Thumbnail2.jpg" class="project-thumbnail"
                 id="project-flower-thumbnail" alt="project-flower-thumbnail"> </a>
           </div>
@@ -116,7 +96,7 @@
           <img src="Resources/Project-Bunker-Thumbnail2.png" class="project-thumbnail" id="project-bunker"
             alt="project-flower-thumbnail">
           <div class="project-thumbnail-content">
-            <h2 class="header-contents"> Bunker </h2>
+            <h2 class="image-descritption-contents"> Bunker </h2>
             <a href="project-bunker.html"> <img src="Resources/Project-Bunker-Thumbnail1.png" class="project-thumbnail"
                 id="project-bunker-thumbnail" alt="project-flower-thumbnail"> </a>
           </div>
@@ -126,7 +106,7 @@
           <img src="Resources/Project-Canvas-thumbnail1.png" class="project-thumbnail" id="project-hio"
             alt="project-hio-thumbnail">
           <div class="project-thumbnail-content">
-            <h2 class="header-contents"> Canvas </h2>
+            <h2 class="image-descritption-contents"> Canvas </h2>
             <a href="project-canvas.html"> <img src="Resources/Project-Canvas.png" class="project-thumbnail"
                 id="project-hio-thumbnail" alt="project-hio-thumbnail"> </a>
           </div>
@@ -171,17 +151,6 @@
             tincidunt sollicitudin ex porta quis. Nulla felis augue, convallis quis ligula eu, pharetra dignissim
             nunc. Aliquam elementum ligula nec pharetra sodales. </p>
         </div>
-        <div class="justify-body-content">
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sapien arcu, malesuada et urna sed,
-            aliquet mattis lacus. Donec egestas quis est non pharetra. In dignissim libero non est dignissim
-            congue. Ut at congue lectus, volutpat pellentesque mauris. Etiam blandit metus id sem tincidunt, ut
-            ullamcorper erat eleifend. Nulla cursus dui id leo sodales dapibus. Morbi et odio nulla. Vivamus in
-            ullamcorper velit. Vivamus tempor tristique est eu ultrices. Suspendisse volutpat augue lacus,
-            tincidunt sollicitudin ex porta quis. Nulla felis augue, convallis quis ligula eu, pharetra dignissim
-            nunc. Aliquam elementum ligula nec pharetra sodales. </p>
-        </div>
-
-      </div>
     </section>
 
     <section class="container-border">
@@ -276,15 +245,6 @@
 
       <div class="justify-centered-left-body-content">
         <p>
-          My role for this project was the project manager, game designer, and 2D animator.
-          As the project manager, my responsibility for my team is to keep track of everyone's task and decide the
-          time frame of which a task should be finish. Time management in this project was key, as this was our team's
-          first experience with the Unity 3D engine.
-        </p>
-      </div>
-
-      <div class="justify-centered-left-body-content">
-        <p>
           The issue I faced with my task was the 2D animation part. I used the Live2D Engine for 2D animations as part
           of gameplay. However,
           this engine was not meant to be used to create as part of gameplay but as a visual aesthetic such as
@@ -319,6 +279,46 @@
     </div>
     </div>
   </section>
+
+  <div class="container-border">
+  <section class="service-offer">
+    <h1 class="element-container header-contents" id="contact">Contact</h1>
+
+    <div class="element-container label-container">
+        <div class="service-justify-content">
+
+            <form>
+                <label for="firstname" class="label-justify-content-inputs"> First Name<input type="text"
+                        id="firstname" class="text-input" placeholder=" ">
+                </label>
+                <label for="lastname" class="label-justify-content-inputs"> Last Name<input type="text"
+                        id="lastname" class="text-input" placeholder=" ">
+                </label>
+                <label for="tel-contact" class="label-justify-content-inputs"> Telephone<input type="text"
+                        id="tel-contact" class="text-input" placeholder="Contact Number">
+                </label>
+                <label for="email" class="label-justify-content-inputs"> Email <input type="text" id="email"
+                        class="text-input" placeholder="Email Address">
+                </label>
+                <label for="subject" class="label-justify-content-inputs"> Subject <input type="text" id="subject"
+                        class="text-input" placeholder=" ">
+                </label>
+                <label class="label-justify-content-inputs"> Message </label>
+                <div class="label-justify-content-inputs">
+                    <textarea class="label-justify-content-inputs" rows="10" cols="50"
+                        placeholder="Leave any messages for us here"> </textarea>
+                </div>
+            </form>
+
+
+                <input type="submit" class="submit-reset-button nav-button-text" id="submit-btn" value="Send">
+
+        </div>
+    </div>
+
+
+</section>
+</div>
   <!-- // COMBINED ELEMENTS SECTION -->
   <div class="element-container empty-block"></div>
   <!-- This creates a footer that can contain texts and images -->
