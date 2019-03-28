@@ -57,7 +57,7 @@
   .text-input{
     border-radius: 10px;
     height: 2rem;
-    max-width: 37.6rem;
+    max-width: 39rem;
     background-color: white;
     border: none;
     margin-top: 2rem;
@@ -118,7 +118,7 @@
 
   #firstname, #lastname{
     margin-bottom: 1.2rem;
-    max-width: 12.5rem;
+    max-width: 10rem;
   }
 
   /* #home-nav{

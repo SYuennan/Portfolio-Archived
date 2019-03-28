@@ -11,6 +11,7 @@
   margin-top: 10rem;
 }
 
+
 .contract-img-thumbnail {
   display: flex;
   flex-basis: 100%;
@@ -104,4 +105,9 @@
   background-color: transparent;
   border: none;
   transition-duration: 0.8s;
+}
+
+#intro-banner{
+  object-position: 50% 0%;
+  opacity: 0.75;
 }

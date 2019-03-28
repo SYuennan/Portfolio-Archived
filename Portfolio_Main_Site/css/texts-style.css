@@ -2,6 +2,7 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0px;
   color: white;
+  letter-spacing: 5px;
 }
 
 label{
@@ -59,14 +60,15 @@ ul{
 
 .justify-body-content{
   display: flex;
-  flex-basis: 33%;
-  padding-left: 2%;
-  padding-right: 2%;
+  flex-basis: 50%;
+  padding-left: 7%;
+  padding-right: 7%;
   text-align: left;
   font-size: 1.2rem;
   color: white;
   background: transparent;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
+  line-height: 150%;
 }
 
 .justify-project-body-content{
@@ -78,7 +80,8 @@ ul{
   font-size: 1.2rem;
   color: white;
   background: transparent;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
+  line-height: 150%;
 }
 
 .justify-centered-body-content{
@@ -90,7 +93,8 @@ ul{
   font-size: 1.2rem;
   color: white;
   background: transparent;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
+  line-height: 150%;
 }
 
 .justify-centered-left-body-content{
@@ -102,7 +106,8 @@ ul{
   font-size: 1.2rem;
   color: white;
   background: transparent;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
+  line-height: 150%;
 }
 
 
