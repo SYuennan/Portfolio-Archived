@@ -11,6 +11,7 @@
   margin-top: 10rem;
 }
 
+
 .contract-img-thumbnail {
   display: flex;
   flex-basis: 100%;
@@ -69,6 +70,7 @@
   top: 23vmax;
   /* bottom: 0%; */
 
+
   margin-left: 1rem;
   margin-right: 1rem;
 
@@ -78,17 +80,6 @@
   z-index: 1;
   transition-duration: 0.5s;
   background: rgba(32, 32, 32, 0.9);
-}
-
-.thumbnail-header-content{
-  display: flex;
-  justify-content: center;
-  background-color: transparent;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #48cf90;
-  text-decoration: #48cf90;
-  text-decoration-line: none;
-  font-size: 2rem;
 }
 
 .imageGrid:hover .project-thumbnail-content {
@@ -114,4 +105,9 @@
   background-color: transparent;
   border: none;
   transition-duration: 0.8s;
+}
+
+#intro-banner{
+  object-position: 50% 0%;
+  opacity: 0.75;
 }
