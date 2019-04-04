@@ -1,0 +1,52 @@
+.intro-name{
+    animation: name 3s;
+}
+
+.intro-role-gamedesign{
+    animation: role-gamedesign 3s;
+}
+
+.intro-role-characterdesign{
+
+    animation: role-characterdesign 4s;
+}
+
+.intro-role-animations{
+    animation: role-animations 5s;
+}
+
+@keyframes name {
+    10%{
+        opacity: 0;
+        margin-left: -50rem;
+    }
+
+    55%{
+        opacity: 0;
+    }
+
+    70% {
+        letter-spacing: -25px;
+    }
+}
+
+@keyframes role-gamedesign {
+    70%{
+        opacity: 0;
+        margin-left: -40rem;
+    }
+}
+
+@keyframes role-characterdesign{
+    70%{
+        opacity: 0;
+        margin-left: -40rem;
+    }
+}
+
+@keyframes role-animations{
+    70%{
+        opacity: 0;
+        margin-left: -40rem;
+    }
+}
