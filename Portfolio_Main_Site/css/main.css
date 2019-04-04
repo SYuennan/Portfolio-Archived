@@ -85,10 +85,30 @@ html{
   background-color: #48cf90;
 }
 
-@media only screen and (max-width: 1200px) {
-  .inline-bottom-left-text{
-    left: 19rem;
+.intro-wrapper-name{
+  display: block;
+  flex-basis: 100%;
+  margin: 10rem;
+  height: 10rem;
+  width: 100%;
 }
+
+.intro-wrapper-role{
+  display: block;
+  flex-basis: 100%;
+  margin-left: 10rem;
+  height: 10rem;
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 620px) {
+  .nav-main-items{
+    margin: 0rem;
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media only screen and (max-width: 870px) {
@@ -120,8 +140,7 @@ html{
     height: 100%;
   }
 
-  .nav-main-items{
-    margin: 1rem;
+  .nav-main{
     width: 100%;
     height: 100%;
   }
@@ -137,6 +156,16 @@ html{
   }
 
   .justify-centered-body-content{
+      flex-basis: 100%;
+      width: auto;
+      text-align: left;
+      padding-left: 2%;
+      padding-right: 2%;
+  }
+
+    .justify-centered-left-body-content{
+      line-height: 2rem; 
+      font-size: 1rem;
       flex-basis: 100%;
       width: auto;
       text-align: left;
@@ -241,11 +270,6 @@ html{
     width: 100%;
   }
 
-  .intro-text{
-    text-align: left;
-    margin: 2rem;
-  }
-
   .justify-centered-left-body-content{
     padding-left: 10%;
     padding-right: 10%;
@@ -269,6 +293,23 @@ html{
     margin-top: 0rem;
   }
 
+  .intro-text-name{
+    font-size: 46px;
+  }
+
+  .intro-text-role{
+    font-size: 32px;
+  }
+
+  .intro-wrapper-name{
+    margin: 5rem;
+  }
+
+  .intro-wrapper-role{
+    margin-left: 5rem;
+    height: 10rem;
+    width: 100%;
+  }
 
 }
 form{
