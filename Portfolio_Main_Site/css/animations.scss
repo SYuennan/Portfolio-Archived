@@ -1,0 +1,72 @@
+/* Controls Intro Name Animation */
+.intro-name{
+    animation: name 3s;
+}
+
+/* Controls Intro Role Animation */
+.intro-role-gamedesign{
+    animation: role-gamedesign 3s;
+}
+
+.intro-role-characterdesign{
+
+    animation: role-characterdesign 4s;
+}
+
+.intro-role-animations{
+    animation: role-animations 5s;
+}
+
+/* Fades and translation animation */
+@keyframes name {
+
+    0%{
+        opacity: 0;
+    }
+
+    10%{
+        opacity: 0;
+        margin-left: -50rem;
+    }
+
+    55%{
+        opacity: 0;
+    }
+
+    70% {
+        letter-spacing: -25px;
+    }
+}
+
+@keyframes role-gamedesign {
+    0%{
+        opacity: 0;
+    }
+
+    70%{
+        opacity: 0;
+        margin-left: -40rem;
+    }
+}
+
+@keyframes role-characterdesign{
+    0%{
+        opacity: 0;
+    }
+
+    70%{
+        opacity: 0;
+        margin-left: -40rem;
+    }
+}
+
+@keyframes role-animations{
+    0%{
+        opacity: 0;
+    }
+
+    70%{
+        opacity: 0;
+        margin-left: -40rem;
+    }
+}
