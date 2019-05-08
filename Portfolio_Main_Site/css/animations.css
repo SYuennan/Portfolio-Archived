@@ -1,72 +1,45 @@
 /* Controls Intro Name Animation */
-.intro-name{
-    animation: name 3s;
-}
+.intro-name { -webkit-animation: name 3s; animation: name 3s; }
 
 /* Controls Intro Role Animation */
-.intro-role-gamedesign{
-    animation: role-gamedesign 3s;
-}
+.intro-role-gamedesign { -webkit-animation: role-gamedesign 3s; animation: role-gamedesign 3s; }
 
-.intro-role-characterdesign{
+.intro-role-characterdesign { -webkit-animation: role-characterdesign 4s; animation: role-characterdesign 4s; }
 
-    animation: role-characterdesign 4s;
-}
-
-.intro-role-animations{
-    animation: role-animations 5s;
-}
+.intro-role-animations { -webkit-animation: role-animations 5s; animation: role-animations 5s; }
 
 /* Fades and translation animation */
-@keyframes name {
+@-webkit-keyframes name { 0% { opacity: 0; }
+  10% { opacity: 0;
+    margin-left: -50rem; }
+  55% { opacity: 0; }
+  70% { letter-spacing: -25px; } }
+@keyframes name { 0% { opacity: 0; }
+  10% { opacity: 0;
+    margin-left: -50rem; }
+  55% { opacity: 0; }
+  70% { letter-spacing: -25px; } }
 
-    0%{
-        opacity: 0;
-    }
+@-webkit-keyframes role-gamedesign { 0% { opacity: 0; }
+  70% { opacity: 0;
+    margin-left: -40rem; } }
 
-    10%{
-        opacity: 0;
-        margin-left: -50rem;
-    }
+@keyframes role-gamedesign { 0% { opacity: 0; }
+  70% { opacity: 0;
+    margin-left: -40rem; } }
 
-    55%{
-        opacity: 0;
-    }
+@-webkit-keyframes role-characterdesign { 0% { opacity: 0; }
+  70% { opacity: 0;
+    margin-left: -40rem; } }
 
-    70% {
-        letter-spacing: -25px;
-    }
-}
+@keyframes role-characterdesign { 0% { opacity: 0; }
+  70% { opacity: 0;
+    margin-left: -40rem; } }
 
-@keyframes role-gamedesign {
-    0%{
-        opacity: 0;
-    }
+@-webkit-keyframes role-animations { 0% { opacity: 0; }
+  70% { opacity: 0;
+    margin-left: -40rem; } }
 
-    70%{
-        opacity: 0;
-        margin-left: -40rem;
-    }
-}
-
-@keyframes role-characterdesign{
-    0%{
-        opacity: 0;
-    }
-
-    70%{
-        opacity: 0;
-        margin-left: -40rem;
-    }
-}
-
-@keyframes role-animations{
-    0%{
-        opacity: 0;
-    }
-
-    70%{
-        opacity: 0;
-        margin-left: -40rem;
-    }
-}
+@keyframes role-animations { 0% { opacity: 0; }
+  70% { opacity: 0;
+    margin-left: -40rem; } }
