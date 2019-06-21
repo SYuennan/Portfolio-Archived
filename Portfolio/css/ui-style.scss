@@ -13,7 +13,7 @@
     font-weight: bold;
     flex-direction: row;
     flex-basis: 10%;
-    color:#39a773;
+    color:#b820b8;
     background-color: transparent;
     padding: 0.3rem;
     margin: 1.2rem;
@@ -30,7 +30,7 @@
     height: 3px;
     bottom: 0;
     left: 0;
-    background-color: #39a773;
+    background-color: #b820b8;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -45,7 +45,7 @@
   }
   
   .in-text-nav{
-    color:#39a773;
+    color:#b820b8 ;
     transition-property: color;
     transition-duration: 0.5s;
   }
@@ -73,9 +73,10 @@
   .nav-button{
     flex-basis: 100%;
     border-radius: 10px;
-    width: 25em;
+    width: 25rem;
+    height: 20rem;
     color: white;
-    background-color: black;
+    background-color: #b820b8;
     border: none;
     box-shadow: 0px 0px 10px black;
     transition-duration: 0.5s;
@@ -92,11 +93,17 @@
   .submit-reset-button{
     border-radius: 10px;
     width: 10em;
-    height: 3em;
+    height: 5em;
     margin-top: 10px;
     color: white;
     border: none;
     transition-duration: 0.5s;
+  }
+
+  .web-link{
+    color: #b820b8;
+    text-decoration: none;
+    transition-duration: 0.5;
   }
 
   .video-url{
@@ -105,21 +112,57 @@
   }
   
   .nav-button:hover, .nav-button:focus, .submit-reset-button:hover, .submit-reset-button:focus{
-    background-color: #08331f;
     color: white;
   }
 
-  #project-flower-box{
-    margin: 2em;
-  }
-  #project-bunker{
-    margin-bottom: 5rem;
-  }
 
   #firstname, #lastname{
     margin-bottom: 1.2rem;
     max-width: 10rem;
   }
+
+  #nav-to-top{
+    display: flex;
+    padding-top: 5rem;
+    justify-content: space-evenly;
+  }
+
+  .tag-container{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #9e059e;
+    text-decoration: #9e059e;
+    text-decoration-line: none;
+  }
+
+  .tag{
+    display:flex;
+    border-radius: 3px;
+    width: 10rem;
+    height: 1.5rem;
+    color: white;
+    margin: 2rem;
+    background-color: #b820b8;
+    border: none;
+    box-shadow: 0px 0px 2px black;
+    justify-content: space-evenly;
+  }
+
+  #project-time{
+    background-color: #be7c00;
+  }
+  
+
+  #project-type{
+    background-color: #00ac64;
+  }
+
+  .video-link{
+    margin-top: 3rem;
+  }
+  
 
   /* #home-nav{
     background-color: white;

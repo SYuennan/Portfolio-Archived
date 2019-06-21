@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sirawit Yuennan's Portfolio</title>
+    <link rel="stylesheet" href="css/texts-style.css">
+    <link rel="stylesheet" href="css/image-style.css">
+    <link rel="stylesheet" href="css/ui-style.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <nav class="nav-main element-container" id="nav-top">
+        <a href="index.html" class="nav-main-items" id="home-nav"> Home</a>
+        <a href="index.html#about-me" class="nav-main-items" id="bio-nav">About me</a>
+        <a href="index.html#projects" class="nav-main-items" id="projects-nav">Projects</a>
+        <!-- <a href="index.html#contact" class="nav-main-items" id="contact-nav">Contact</a> -->
+    </nav>
+
+    <div class="element-container">
+        <img src="Resources/Project-Bunker.png" class="header-banner" alt="main-banner">
+    </div>
+    </div>
+
+    <h1 class="element-container header-contents">Lost Bunker</h1>
+
+    <div class="element-container tag-container">
+
+        <div class="tag" id="project-time">
+            Spring 2018
+        </div>
+
+        <div class="tag" id="project-time">
+            February - April
+        </div>
+
+        <div class="tag">
+            Unity 3D
+        </div>
+
+        <div class="tag">
+            Blender
+        </div>
+
+        <div class="tag" id="project-type">
+            School Project
+        </div>
+
+
+    </div>
+
+
+    <h1 class="element-container header-contents">Project Description</h1>
+
+    <div class="justify-centered-left-body-content">
+        <p>Project Lost Bunker is a Virtual Reality project that incorporates the Oculus Rift system to determine
+            whether different people can reach the same amount of presence when placed in the same situation. Presence
+            is when the user feel as if they are present in that world as a physical entity and it was conveyed to the
+            users through a keen attention to the design and detail of this virtual experience. This project was created
+            within a development time of 2 months and was created with 3 other people: Daria Kilmaseva (Co-scene
+            designer), Rozhin Kardan (Co-3D modelling artist), and Lee McHale (Co-programmer).
+
+        </p>
+    </div>
+
+    <h1 class="element-container header-contents">Role</h1>
+    <div class="justify-centered-left-body-content">
+        <p>
+            My role for this project were mainly as the project lead and programmer. As the lead, I assessed my team’s
+            experience with the techniques we’d be using for the projects as well as their motivations and eagerness to
+            move forward with the project. From this, I assigned tasks for them that wouldn’t overwhelm them but rather
+            challenge them whilst maintaining a healthy balance between this project and their other courses.I also
+            became the team’s main supporting figure, providing advice and assistance regarding the project whenever my
+            team members needed it. As the programmer, my task was to create an interaction system that can work with
+            any paired objects and it should be easy to use for non-programming roles as well.
+        </p>
+    </div>
+
+    <h1 class="element-container header-contents">Problem</h1>
+
+    <div class="element-container">
+        <div class="justify-body-content">
+            <p>
+                The problem I faced was the different possibilities of how to detect two different Unity objects to
+                interact with one another while also being treated as separate entities. One solution that I considered
+                was simply group them into one object and turn on trigger collision for both objects when they are
+                within close proximity within each other. This would require 2 different trigger collisions to work
+                which makes it impractical and clumsy.
+            </p>
+        </div>
+
+        <div class="justify-body-content"> <img src="Resources/Project-Bunker-Thumbnail1.png"
+                class="project-screenshot img-border" alt="project-flower-huntsman">
+        </div>
+        <figcaption class="justify-right-figure-caption" id="project-bunker-thumbnail1"> 3D model of the project's level layout. </figcaption>
+    </div>
+
+    <h1 class="element-container header-contents">Solution</h1>
+
+    <div class="element-container">
+
+        <div class="justify-body-content"> <img src="Resources/Project-Bunker-Thumbnail2.png"
+                class="project-screenshot img-border" id="protagonist" alt="project-flower-protagonist">
+        </div>
+
+        <div class="justify-body-content">
+            <p>
+                The alternate solution that I ended up using was to assign each object with a datatype using enum using
+                one trigger collision. Each object is then paired in a key-system. For example, if an object is assigned
+                with a "bronze key", then the only corresponding "bronze door" would work and nothing else. Upon
+                collision the key object would be destroyed and the door would play an animation using mecanim.
+            </p>
+        </div>
+    </div>
+    <figcaption class="justify-left-figure-caption"> Trigger system that detect based on paired tags. </figcaption>
+    <h1 class="element-container header-contents">Reflection</h1>
+    <div class="justify-project-body-content">
+        <p>
+            What I learned from this project was that there are many solutions to an issue and many paths can be taken
+            to successfully solve a problem. However, only well-thought and planned out solutions would lead to better
+            implementations in terms of correctness and maintainability. Each solution must be implemented while being
+            aware of any future development work on the project. Going for a simpler solution might be easier to
+            implement but it may lead to major and conflicting issues later on that can break your program completely. A
+            solution needs to be thoughtful, not only for my own use, but it also needs to accommodate intuitive
+            techniques so that those without advanced programming knowledge can clearly understand the implementation of
+            the solution.
+        </p>
+    </div>
+
+    <a href="project-bunker.html#nav-top" class="nav-main-items" id="nav-to-top"> Back to the top</a>
+
+    <div class="element-container empty-block"></div>
+    <!-- This creates a footer that can contain texts and images -->
+    <div class="footer">
+
+    </div>
+</body>
+
+</html>

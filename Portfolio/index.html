@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sirawit Yuennan's Portfolio</title>
+  <title>Steven Yuennan's Portfolio</title>
   <!-- Stylesheets separates into different categories -->
   <link rel="stylesheet" href="css/texts-style.css">
   <link rel="stylesheet" href="css/image-style.css">
@@ -16,7 +16,7 @@
 
 <body>
   <!-- Nav sections -->
-  <nav class="nav-main element-container">
+  <nav class="nav-main element-container" id="nav-top">
     <a href="index.html" class="nav-main-items" id="home-nav"> Home</a>
     <a href="index.html#about-me" class="nav-main-items" id="bio-nav">About me</a>
     <a href="index.html#projects" class="nav-main-items" id="projects-nav">Projects</a>
@@ -24,38 +24,37 @@
   </nav>
 
   <!-- Intro Section -->
-  <div class="element-container">
-    <div class="intro-wrapper-name">
-      <span class="intro-text-name intro-name">
-        Sirawit Yuennan
-      </span>
-    </div>
 
-    <div class="intro-wrapper-role">
-      <span class="intro-text-role intro-role-gamedesign">
-        Mainly Game Designer
-      </span>
-    </div>
+  <div class="banner-container">
+      <div class="overlay-banner"></div>
+    <img src="Resources/Character_Sheet1.png" class="header-banner img-border" alt="main-banner" id="intro-banner">
+      <div class="intro-wrapper-name">
+        <span class="intro-text-name intro-name">
+          Steven Yuennan
+        </span>
+      </div>
 
-    <div class="intro-wrapper-role">
-      <span class="intro-text-role intro-role-characterdesign">
-        Sometimes 3D Artist
-      </span>
-    </div>
-  </div>
+      <div class="intro-wrapper-role">
+        <span class="intro-text-role intro-role-gamedesign">
+          Mainly Game Designer
+        </span>
+      </div>
 
-  <img src="Resources/Character_Sheet1.png" class="header-banner" alt="main-banner" id="intro-banner">
+      <div class="intro-artist-wrapper-role">
+        <span class="intro-text-role intro-role-characterdesign">
+          Sometimes 3D Artist
+        </span>
+      </div>
+    </div>
 
   <!-- About Me Section -->
   <h1 class="element-container header-contents" id="about-me">About Me</h1>
   <div class="justify-centered-left-body-content">
     <p>
-      My name is Sirawit Yuennan. I specialize in game design, with expertise in 3D modelling and animations to provide
-      a more immersive and detailed game design. As an aspiring video game design student at Simon Fraser University's
-      School of Interactive and Technology. Aside from studying, I'm work with under an independent game development
-      team as their sole 3D modeller and animator. Our current project, Project Hole-in-One is an artistic mobile game
-      which will be planned for a winter 2019 release. My technical skills include expertise in using Unity 3D Engine,
-      Blender, Maya, and the Live2D engine.
+      My name is Steven Yuennan. I specialize in game design, with knowledge and skills in 3D modelling and animations
+      to provide a more engaging and detailed game design. As an aspiring video game design student at Simon Fraser
+      University's School of Interactive and Technology, my skills in game development utilize these tools, including
+      Unity 3D Engine, Blender, Maya, and the Live2D engine to create games.
     </p>
   </div>
 
@@ -65,19 +64,17 @@
     </div>
   </div>
 
-  <img src="Resources/Project-Flower.png" class="img-body-banner" alt="bunker-banner">
-
   <!-- Projects SECTION // -->
   <section class="element-container">
     <h3 class="element-container header-contents" id="projects">Portfolio</h3>
     <div class="project-thumbnail-container">
       <div class="imageGrid project-thumbnail-wrapper">
-        <img src="Resources/Project-Flower-Thumbnail3.jpg" class="project-thumbnail" id="project-flower"
-          alt="project-flower-thumbnail">
+        <img src="Resources/Project-Hole-In-One-Thumbnail3.png" class="project-thumbnail" id="project-hole"
+          alt="project-hole-thumbnail">
         <div class="project-thumbnail-content">
-          <h2 class="image-descritption-contents"> Flower Diary </h2>
-          <a href="project-flower.html"> <img src="Resources/Project-Flower-Thumbnail2.jpg" class="project-thumbnail"
-              id="project-flower-thumbnail" alt="project-flower-thumbnail"> </a>
+          <h2 class="image-descritption-contents"> Project HIO (Mobile) </h2>
+          <a href="project-hole-in-one.html"> <img src="Resources/Project-Hole-In-One-Thumbnail4.png"
+              class="project-thumbnail" id="project-hole-thumbnail" alt="project-hole-thumbnail"> </a>
         </div>
       </div>
 
@@ -85,7 +82,7 @@
         <img src="Resources/Project-Bunker-Thumbnail2.png" class="project-thumbnail" id="project-bunker"
           alt="project-flower-thumbnail">
         <div class="project-thumbnail-content">
-          <h2 class="image-descritption-contents"> Bunker </h2>
+          <h2 class="image-descritption-contents"> Lost Bunker (VR) </h2>
           <a href="project-bunker.html"> <img src="Resources/Project-Bunker.png" class="project-thumbnail"
               id="project-bunker-thumbnail" alt="project-flower-thumbnail"> </a>
         </div>
@@ -95,7 +92,7 @@
         <img src="Resources/Project-Canvas-thumbnail1.png" class="project-thumbnail" id="project-hio"
           alt="project-hio-thumbnail">
         <div class="project-thumbnail-content">
-          <h2 class="image-descritption-contents"> Canvas </h2>
+          <h2 class="image-descritption-contents"> Canvas (Mobile) </h2>
           <a href="project-canvas.html"> <img src="Resources/Project-Canvas.png" class="project-thumbnail"
               id="project-hio-thumbnail" alt="project-hio-thumbnail"> </a>
         </div>
@@ -103,22 +100,20 @@
     </div>
   </section>
 
-  <img src="Resources/Project-Bunker-Thumbnail1.png" class="img-body-banner" alt="bunker-banner">
-
   <!-- Contact Section -->
   <section class="service-offer">
     <h3 class="element-container header-contents" id="contact">Contact</h3>
 
     <div class="element-container header-contents">
-        <p>
-          Email: sirawit.yuennan@gmail.com
-        </p>
-      </div>
-      <div class="element-container header-contents">
-          <p>
-            Linkdin: linkedin.com/in/syuennan
-          </p>
-        </div>
+      <p>
+        Email: steven.yuennan@gmail.com
+      </p>
+    </div>
+    <div class="element-container header-contents">
+      <a href="https://linkedin.com/in/syuennan" class="web-link nav-main-items">
+        Linkdin: linkedin.com/in/syuennan
+      </a>
+    </div>
 
 
     <!-- <div class="element-container label-container">
@@ -151,7 +146,7 @@
 
  <input type="submit" class="submit-reset-button nav-button-text" id="submit-btn" value="Send"> -->
 
-      </div>
+    </div>
     </div>
 
 
@@ -161,7 +156,6 @@
   <div class="element-container empty-block"></div>
 
   <div class="footer">
-
   </div>
 </body>
 
