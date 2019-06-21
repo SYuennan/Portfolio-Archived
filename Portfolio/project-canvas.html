@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sirawit Yuennan's Portfolio</title>
+    <link rel="stylesheet" href="css/texts-style.css">
+    <link rel="stylesheet" href="css/image-style.css">
+    <link rel="stylesheet" href="css/ui-style.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <nav class="nav-main element-container" id="nav-top">
+        <a href="index.html" class="nav-main-items" id="home-nav"> Home</a>
+        <a href="index.html#about-me" class="nav-main-items" id="bio-nav">About me</a>
+        <a href="index.html#projects" class="nav-main-items" id="projects-nav">Projects</a>
+        <!-- <a href="index.html#contact" class="nav-main-items" id="contact-nav">Contact</a> -->
+    </nav>
+
+    <div class="element-container">
+        <img src="Resources/Project-Canvas.png" class="header-banner" alt="main-banner">
+        </div>
+    </div>
+
+    <h1 class="element-container header-contents">Canvas</h1>
+
+    <div class="element-container tag-container">
+
+            <div class="tag" id="project-time">
+                Spring 2018
+            </div>
+    
+            <div class="tag" id="project-time">
+                January - April
+            </div>
+    
+            <div class="tag">
+                Unity 3D
+            </div>
+    
+            <div class="tag">
+                Blender
+            </div>
+    
+            <div class="tag">
+                Clip Studio
+            </div>
+    
+            <div class="tag" id="project-type">
+                School Project
+            </div>
+    
+    
+        </div>
+
+
+    <div class="element-container video-url video-link">
+        <iframe width="720" height="480" src="https://www.youtube.com/embed/vux8WYP_LEs">
+        </iframe>
+    </div>
+
+    <h1 class="element-container header-contents">Project Description</h1>
+
+    <div class="justify-centered-left-body-content">
+        <p>Canvas is a mobile arcade game in the form of an "endless runner". This was an individual project for the
+            class Advanced Game Design. It is designed to attract a wider range of users and uses simplified controls
+            and mechanics to do so.This game was created using Unity 3D, and the asset modeling is created through
+            Blender (3D), and Clip Studio (2D).
+
+        </p>
+    </div>
+
+
+    <h1 class="element-container header-contents">Problem</h1>
+
+    <div class="element-container">
+        <div class="justify-body-content">
+            <p>
+                The problem I encountered the implementation of random generation in each level. One of the solutions
+                considered was to simply have a preset of obstacles placed and simply randomized between the presets of
+                objects. The presets had to be able to destroy itself once the player reaches a checkpoint while
+                continuing to generate obstacles while the player progressed. However, this solution is impractical
+                because it will eventually become too predictable for experienced players.
+            </p>
+        </div>
+
+        <div class="justify-body-content"> <img src="Resources/Project-Canvas-thumbnail1.png" class="project-screenshot img-border"
+                alt="project-flower-huntsman">
+        </div>
+        <figcaption class="justify-right-figure-caption"> Codes that allow player character's property very easily. </figcaption>
+    </div>
+
+    <h1 class="element-container header-contents">Solution</h1>
+
+    <div class="element-container">
+
+        <div class="justify-body-content"> <img src="Resources/ShipSS.png" class="project-screenshot img-border" id="canvas-thumbnail-1"
+                alt="project-flower-protagonist">
+        </div>
+
+        <div class="justify-body-content">
+            <p>
+                The solution that I used was to rely on completely math, placing obstacles after defining its range of
+                position from the player and from each obstacle. Furthermore, I placed them into a single object so that
+                each generated "set" are considered as their own unique obstacles. Realizing that this idea is reusable
+                on different assets, I applied the same method to randomize environmental props as well. Using this
+                method, it allows minimum effort to create "presets" and completely rely on the program to generate the
+                position of the assets. As for how each object are generated and destroyed, I simply placed a large
+                trigger collision for when the character passes through. When the player triggers the collision, the
+                program destroys the assets that are out of view and then generate new ones ahead.. These triggers are
+                placed within each grouped object as separate objects so that they are unaffected by random generation
+                but will also get created when a new set of obstacles are generated.
+            </p>
+        </div>
+    </div>
+    <figcaption class="justify-left-figure-caption"> 3D Model of the player character using Blender. </figcaption>
+    <h1 class="element-container header-contents">Reflection</h1>
+    <div class="justify-project-body-content">
+        <p>
+            I learn that there are many ways to simulate random generations, and the importance of being able to reuse
+            certain assets in order to create less work with the most efficiency. For example, which asset uses random
+            generations can immensely affect the gameplay and the end result.
+        </p>
+    </div>
+
+    <div class="justify-project-body-content">
+        <p>
+            This entire project was filled with hardship mostly due to my lack of Unity and programming experience. With
+            a difficult time limit I had to learn almost everything from the beginning and execute them within the 1
+            month period. However, the experience that I had learnt from this made me realized this is what I truly wish
+            to do as a career. I learn the entire game-development process and how important it is to iterate as I work
+            as well.
+        </p>
+    </div>
+
+    <a href="project-canvas.html#nav-top" class="nav-main-items"  id="nav-to-top"> Back to the top</a>
+
+    <div class="element-container empty-block"></div>
+    <!-- This creates a footer that can contain texts and images -->
+    <div class="footer">
+
+    </div>
+</body>
+
+</html>

@@ -4,9 +4,17 @@ html{
 
 *{
   box-sizing: border-box;
-  background-color: rgb(22, 22, 22);
+  background-color: white;
   
 }
+
+.overlay-banner{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+}
+
 
 .element-container {
   display:flex;
@@ -22,7 +30,7 @@ html{
   flex-direction: column;
   flex-basis: 100%;
   flex-wrap: wrap;
-  background: #48cf90;
+  background: #b820b8;
 
 }
 
@@ -63,7 +71,7 @@ html{
   text-align: left;
   font-size: 1.2rem;
   color: black;
-  background: #48cf90;
+  background: #b820b8;
 }
 
 #fineline{
@@ -82,23 +90,34 @@ html{
   width: 100%;
   height: 100%;
   padding: 1.5em;
-  background-color: #48cf90;
+  background-color: #b820b8;
 }
 
 .intro-wrapper-name{
-  display: block;
-  flex-basis: 100%;
-  margin: 10rem;
-  height: 10rem;
-  width: 100%;
+  position: absolute;
+  max-width: 50rem;
+  width: 15rem;
+  top: 5rem;
 }
 
 .intro-wrapper-role{
-  display: block;
-  flex-basis: 100%;
-  margin-left: 10rem;
-  height: 10rem;
-  width: 100%;
+  position: absolute;
+  max-width: 50rem;
+  width: 15rem;
+  top: 18rem;
+}
+
+.intro-artist-wrapper-role{
+  position: absolute;
+  max-width: 50rem;
+  width: 15rem;
+  top: 30rem;
+}
+
+.banner-container{
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 
@@ -159,6 +178,7 @@ html{
       padding-right: 1%;
       line-height: 2rem; 
       font-size: 1rem;
+      letter-spacing: 0px;
   }
 
   .justify-centered-body-content{
@@ -169,6 +189,7 @@ html{
       padding-right: 1%;
       line-height: 2rem; 
       font-size: 1rem;
+      letter-spacing: 0px;
   }
 
     .justify-centered-left-body-content{
@@ -179,6 +200,7 @@ html{
       text-align: left;
       padding-left: 1%;
       padding-right: 1%;
+      letter-spacing: 0px;
   }
 
   .justify-project-body-content{
@@ -249,6 +271,7 @@ html{
     flex-basis: 85%;
     margin-left: auto;
     margin-right: auto;
+    letter-spacing: 0px;
   }
   .justify-centered-body-content{
     padding-left: 7.5%;
@@ -294,6 +317,7 @@ html{
     padding-right: 10%;
     width: 100%;
     height: 100%;
+    letter-spacing: 0px;
   }
 
   .justify-project-body-content{
@@ -301,6 +325,7 @@ html{
     height: 100%;
     padding-left: 10%;
     padding-right: 10%;
+    letter-spacing: 0px;
   }
 
   .project-screenshot{
@@ -313,26 +338,49 @@ html{
   }
 
   .intro-text-name{
-    font-size: 46px;
+    font-size: 42px;
   }
 
   .intro-text-role{
-    font-size: 32px;
+    font-size: 24px;
   }
 
+  
   .intro-wrapper-name{
-    margin: 5rem;
+    top: 2rem;
+    width: 5rem;
   }
 
   .intro-wrapper-role{
-    margin-left: 5rem;
-    height: 10rem;
-    width: 100%;
+    top: 8rem;
+    width: 5rem;
+  }
+
+  .intro-artist-wrapper-role{
+    top: 10rem;
+    width: 5rem;
   }
 
   .justify-footer-content{
     margin-top: 2rem;
   }
+
+  .justify-left-figure-caption{
+
+    visibility: hidden;
+  }
+
+  .justify-right-figure-caption{
+
+    visibility: hidden;
+  }
+
+  .tag{
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+  }
+
 
 }
 form{

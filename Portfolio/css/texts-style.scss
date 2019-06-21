@@ -1,8 +1,8 @@
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0px;
-  color: white;
-  letter-spacing: 5px;
+  color: #9e059e;
+  letter-spacing: 1px;
 }
 
 label{
@@ -18,7 +18,7 @@ ul{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: transparent;
   font-size: 3rem;
-  color: #48cf90;
+  color: #9e059e;
   text-align: left;
 }
 
@@ -29,7 +29,7 @@ ul{
   left: 25%;
   max-width: 40em;
   text-decoration-line: none;
-  color: #48cf90;
+  color: #9e059e;
   transform: translate(-50%, -50%);
 }
 
@@ -38,11 +38,11 @@ ul{
   display: flex;
   justify-content: center;
   background-color: transparent;
-  margin-top: 10rem;
-  margin-bottom: 5rem;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #48cf90;
-  text-decoration: #48cf90;
+  color: #9e059e;
+  text-decoration: #9e059e;
   text-decoration-line: none;
   font-size: 2rem;
 }
@@ -52,8 +52,8 @@ ul{
   justify-content: center;
   background-color: transparent;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #48cf90;
-  text-decoration: #48cf90;
+  color: #9e059e;
+  text-decoration: #9e059e;
   text-decoration-line: none;
   font-size: 2rem;
 }
@@ -65,9 +65,9 @@ ul{
   padding-right: 7%;
   text-align: left;
   font-size: 1.2rem;
-  color: white;
+  color: #9e059e;
   background: transparent;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   line-height: 150%;
 }
 
@@ -78,9 +78,9 @@ ul{
   padding-right: 25%;
   text-align: left;
   font-size: 1.2rem;
-  color: white;
+  color: #9e059e;
   background: transparent;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   line-height: 150%;
 }
 
@@ -91,9 +91,9 @@ ul{
   padding-right: 25%;
   text-align: center;
   font-size: 1.2rem;
-  color: white;
+  color: #9e059e;
   background: transparent;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   line-height: 150%;
 }
 
@@ -104,9 +104,9 @@ ul{
   padding-right: 25%;
   text-align: left;
   font-size: 1.2rem;
-  color: white;
+  color: #9e059e;
   background: transparent;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   line-height: 150%;
 }
 
@@ -115,7 +115,7 @@ ul{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: transparent;
   font-size: 1.2rem;
-  color: white;
+  color: #9e059e;
 }
 
 .label-justify-content{
@@ -162,19 +162,66 @@ ul{
 }
 
 .intro-text-name{
-  font-family: 'Courier New', Courier, monospace;
-  color: #48cf90;
+  position: absolute;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #9e059e;
+  background-color: transparent;
+  white-space: nowrap ;
+  max-width: 50rem;
   font-size: 72px;
   font-weight: 500;
 }
 
 .intro-text-role{
-  font-family: 'Courier New', Courier, monospace;
-  color: #48cf90;
+  position: absolute;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #9e059e;
+  max-width: 50rem;
+  background-color: transparent;
+  white-space: nowrap ;
   font-size: 30px;
 }
 
 .content-container{
   display: flex;
   flex-basis: 40%;
+}
+
+.figure-caption{
+  text-align: center;
+  background-color: transparent;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #9e059e;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.justify-right-figure-caption{
+  padding-left: 56rem;
+  background-color: transparent;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #9e059e;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.justify-left-figure-caption{
+  padding-left: 10rem;
+  background-color: transparent;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #9e059e;
+  text-decoration: none;
+  font-style: italic;
+}
+
+#project-bunker-thumbnail1{
+  padding-left: 61rem;
+}
+
+#project-hole-thumbnail1{
+  padding-left: 60rem;
+}
+
+#project-hole-thumbnail2{
+  padding-left: 12rem;
 }
