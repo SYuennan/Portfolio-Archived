@@ -1,3 +1,5 @@
+$background: rgba(10, 10, 10);
+
 html{
   scroll-behavior: smooth;
 }
@@ -10,7 +12,7 @@ html{
 
 .overlay-banner{
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: $background;
   width: 100%;
   height: 100%;
 }
@@ -38,12 +40,12 @@ html{
   padding-bottom: 2rem;
   border-top-width: 0.15rem;
   border-top-style: solid;
-  border-top-color: white;
+  border-top-color: $background;
 }
 
 .container-border{
   border: solid;
-  border-color: white;
+  border-color: $background;
   margin: 10px;
 }
 
@@ -52,7 +54,7 @@ html{
   flex-wrap: wrap;
   justify-content: space-evenly;
   justify-items: center;
-  color: white;
+  color: $background;
 }
 
 .empty-block{
@@ -117,7 +119,7 @@ html{
 .banner-container{
   position: relative;
   text-align: center;
-  color: white;
+  color: $background;
 }
 
 
